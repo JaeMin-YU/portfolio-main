@@ -1,4 +1,4 @@
-export const NAME = 'Jaemi Yu';
+export const NAME = 'Jaemin Yu';
 
 export const DESIGNATION = `DEV PM | FullStack Developer`;
 
@@ -55,8 +55,6 @@ export const CONTACTS = {
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/JaeMin-YU',
   LINKEDIN: 'https://www.linkedin.com/in/jaemin-yu-4a90632b9',
-  TWITTER: 'https://twitter.com/iosamajavaid',
+  KAKAOTALK: 'http://qr.kakao.com/talk/KzN5OTBM5Ca8J00d.85kBgpVGwQ-',
   INSTAGRAM: 'https://www.facebook.com/iosamajavaid',
 };
-//트위터랑 페북 >> 인스타랑 인크루트로 변경 하기
-//정보 업데이트 해야됨
