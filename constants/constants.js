@@ -1,6 +1,6 @@
 export const NAME = 'Jaemin Yu';
 
-export const DESIGNATION = `DEV PM | FullStack Developer`;
+export const DESIGNATION = `DEV PM | Junior Developer`;
 
 export const DETAILS = {
   Residence: 'Korea',
