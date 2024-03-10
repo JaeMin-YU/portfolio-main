@@ -1,7 +1,7 @@
 import React from 'react'
 import CardLayout from '../../Common/CardLayout'
 
-const RecommendationCard = ({ data }) => {
+const PreviousCompanyCard = ({ data }) => {
     return (
         <CardLayout>
             <div className="p-8 h-full relative card_stylings transition">
@@ -16,4 +16,4 @@ const RecommendationCard = ({ data }) => {
     )
 }
 
-export default RecommendationCard
+export default PreviousCompanyCard
