@@ -26,7 +26,8 @@ const expertise = [
     {
         id: 4,
         title: 'Adaptable',
-        desc: "Open Source is the future. I usually take some time on weekend and contribute into opensource project. It gives me opportunity to learn from best developer's practices and also gives me a chance to help others and contribute into the community for the good.",
+        desc: "To broaden my horizons, I sought employment directly in Australia and the United States to gain work experience. This experience not only provided me with a broader perspective but also demonstrated my ability to adapt and thrive in any environment.",
+        // 경험을 쌓아 더 넓은 시야를 얻기 위해서, 직접 호주와 미국에서 취업하여 업무 경험을 쌓았습니다. 이 경험은 저에게 더 넓은 시야를 주었을 뿐만 아니라. 어떤 환경에서도 적응하고 해낼 수 있음을 증명하게 하였습니다.
     },
 ]
 
