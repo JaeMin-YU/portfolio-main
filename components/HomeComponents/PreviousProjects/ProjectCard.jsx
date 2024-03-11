@@ -1,5 +1,4 @@
 import { GoProject } from "react-icons/go";
-import { FaStar } from 'react-icons/fa'
 import CardLayout from '../../Common/CardLayout'
 
 const ProjectCard = ({ data }) => {
@@ -18,13 +17,6 @@ const ProjectCard = ({ data }) => {
                 </div>
                 <div className="text-sm mt-2 text-LightGray font-normal">
                     {data.clientReview}
-                </div>
-                <div className="flex gap-2 items-center justify-center bg-MidNightBlack w-6/12 md:w-5/12 text-xs text-Green rounded-full p-2 mt-4 ">
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
                 </div>
             </div>
         </CardLayout>
