@@ -11,18 +11,18 @@ const previousCompanyCard = [
   {
     id: 1,
     name: 'Bluu in USA NJ',
-    image: "images/sikandar.jpeg",
+    image: "images/Bluu.jpg",
     designation: 'PM / QA Team | Intern',
     view: "I had the privilege of working alongside Osama on multiple university projects, and I must say, his talent and work ethic truly stood out. Recently, we were both part of the dynamic team at JMM Technologies, where Osama's professionalism and attention to detail shone brightly. I wholeheartedly endorse Osama for any opportunity that calls for a highly skilled and dedicated individual.",
     linkednURL: "https://ebluu.com/"
   },
-  {
-    id: 2,
-    name: 'TK - Rinde Korea Air Factory',
-    image: "images/nasir.jpg",
-    designation: 'Technical Support Manager',
-    view: "I wholeheartedly recommend Osama as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
-  },
+  // {
+  //   id: 2,
+  //   name: 'TK - Rinde Korea Air Factory',
+  //   image: "images/nasir.jpg",
+  //   designation: 'Technical Support Manager',
+  //   view: "I wholeheartedly recommend Osama as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
+  // },
 ]
 export default function handler(req, res) {
   res.status(200).json(previousCompanyCard)

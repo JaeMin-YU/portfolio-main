@@ -1,4 +1,4 @@
-import { MdLocationOn } from 'react-icons/md'
+import { GoProject } from "react-icons/go";
 import { FaStar } from 'react-icons/fa'
 import CardLayout from '../../Common/CardLayout'
 
@@ -10,7 +10,7 @@ const ProjectCard = ({ data }) => {
                     <div className="flex flex-col gap-1">
                         <span className="text-sm text-Snow font-bold">{data?.clientName}</span>
                         <div className="text-xs text-LightGray flex items-center gap-1 font-light">
-                            <MdLocationOn />
+                            <GoProject />
                             <em>{data?.clientLocation}</em>
                         </div>
                     </div>
