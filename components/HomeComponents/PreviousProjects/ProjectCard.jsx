@@ -2,7 +2,7 @@ import { MdLocationOn } from 'react-icons/md'
 import { FaStar } from 'react-icons/fa'
 import CardLayout from '../../Common/CardLayout'
 
-const ReviewCard = ({ data }) => {
+const ProjectCard = ({ data }) => {
     return (
         <CardLayout>
             <div className="flex flex-col justify-between card_stylings w-80 md:w-96 h-full  p-4 md:p-8">
@@ -31,4 +31,4 @@ const ReviewCard = ({ data }) => {
     )
 }
 
-export default ReviewCard
+export default ProjectCard
