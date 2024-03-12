@@ -56,5 +56,5 @@ export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/JaeMin-YU',
   LINKEDIN: 'https://www.linkedin.com/in/jaemin-yu-4a90632b9',
   KAKAOTALK: 'http://qr.kakao.com/talk/KzN5OTBM5Ca8J00d.85kBgpVGwQ-',
-  INSTAGRAM: 'https://www.facebook.com/iosamajavaid',
+  INSTAGRAM: 'https://www.instagram.com/jaemin_coder/',
 };

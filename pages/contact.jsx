@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import BannerLayout from '../components/Common/BannerLayout';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { SiKakaotalk } from 'react-icons/si'
 import { SiUpwork } from 'react-icons/si'
 import { HiMail, HiUser } from 'react-icons/hi'
 import { BsChatTextFill } from 'react-icons/bs'
@@ -20,40 +21,39 @@ const Contact = () => {
                         <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Country:</span>
-                                <span className='text-LightGray md:text-sm'>Pakistan</span>
+                                <span className='text-LightGray md:text-sm'>Republic of Korea</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>City:</span>
-                                <span className='text-LightGray md:text-sm'>Peshawar</span>
+                                <span className='text-LightGray md:text-sm'>Daegu</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Company:</span>
-                                <span className='text-LightGray md:text-sm'>CodeWorthy</span>
+                                <span className='text-LightGray md:text-sm'>-</span>
                             </div>
                         </div>
                         <div className="card_stylings rounded-xl w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Email:</span>
-                                <span className='text-LightGray text-sm'>iosamajavaid@gmail.com</span>
+                                <span className='text-LightGray text-sm'>jack7623@icloud.com</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Linkedin:</span>
-                                <span className='text-LightGray text-sm'>reachOsama</span>
+                                <span className='text-LightGray text-sm'>Jaemin YU</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Phone:</span>
-                                <span className='text-LightGray text-sm'>+92 (315) 9591822</span>
+                                <span className='text-LightGray text-sm'>+82 (010) 2713-7653</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
                     <a className='hover:scale-125 ease-in-out duration-700' href="" target='_blank' rel="noreferrer"><HiMail /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/osamajavaid" target='_blank' rel="noreferrer"><FaGithub /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/iosamajavaid/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="https://www.fiverr.com/codeworthy" target='_blank' rel="noreferrer"><Fiverr_Icon /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="#" target='_blank' rel="noreferrer"><SiUpwork /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/JaeMin-YU" target='_blank' rel="noreferrer"><FaGithub /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/jaemin-yu-4a90632b9" target='_blank' rel="noreferrer"><FaLinkedin /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="https://www.instagram.com/jaemin_coder/" target='_blank' rel="noreferrer"><FaInstagram /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="http://qr.kakao.com/talk/KzN5OTBM5Ca8J00d.85kBgpVGwQ-" target='_blank' rel="noreferrer"><SiKakaotalk /></a>
                 </div>
 
 
@@ -108,7 +108,7 @@ const Contact = () => {
             >
                 <div className='flex flex-col items-center justify-center'>
                     <h1 className='text-Green font-bold text-2xl'>In Progress</h1>
-                    <a className='underline text-Snow' target='_blank' href='https://github.com/osamajavaid/portfolio'>Be the one to integrate this!</a>
+                    <a className='underline text-Snow' target='_blank' href='https://github.com/JaeMin-YU/portfolio-main'>Be the one to integrate this!</a>
                 </div>
             </Modal>
             <Footer />
