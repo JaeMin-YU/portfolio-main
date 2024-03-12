@@ -3,24 +3,17 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
+                title: 'Daegu Catholic University',
+                degree: 'Korean Language Education(include Curriculum for Teaching Profession)',
+                detail: "It aims to cultivate excellent teachers who fulfill their duties as educators by learning basic theories on Korean language and Korean literature, focusing on Korean language education, and conducting practical and practical education.",
+                year: '2017-2025(Expected)'
             },
             {
                 id: 1,
-                title: 'Peshawar Model Degree College',
-                degree: 'HSSC, Pre Engineering',
-                detail: "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
-                year: '2015-2017'
-            },
-            {
-                id: 2,
-                title: 'Falcon Academy',
-                degree: 'SSC, Science Subjects',
-                detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
-                year: '2013-2015'
+                title: 'Daegu Catholic University',
+                degree: 'Computer Science with Curriculum for Teaching Profession',
+                detail: "Computer engineering majors learn various fields of developing and operating optimal software based on relevant knowledge across computers.",
+                year: '2017-2025(Expected)'
             },
         ]
     },
@@ -28,32 +21,24 @@ const background = [
         expCards: [
             {
                 id: 1,
-                title: 'JMM Technologies',
-                role: 'Frontend Developer',
-                url: 'https://jmm.ltd/',
-                desc: 'As a frontend developer, I use React, Next & JavaScript to build user interfaces for web applications.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                title: 'BLUU',
+                role: 'IT QA Intern',
+                url: 'https://ebluu.com/',
+                desc: 'I collaborated with the marketing, tech support, and development teams for Windows-based POS solutions, managing sprints, designing functionalities, and evaluating risks.',
+                // 윈도우 기반의 POS 솔루션들에 대해 마케팅, Tech Support, 개발 팀과 협업 하여 스프린트 관리, 동작 설계, 위험성 평가 등의 업무를 하였습니다. 
+                year: '11/2022 - 11/2023',
+                location: 'New Jersey, USA'
             },
             {
                 id: 2,
-                title: 'HauzaTech',
-                role: 'Internee',
-                url: 'no website',
-                desc: 'As an Internee, I learned how to use React & JavaScript to build interactive websites.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                title: 'Samsung',
+                role: 'TV Engineer',
+                url: 'https://www.samsung.com/au/',
+                desc: 'Based on my knowledge of Smart TV operating systems and expertise in OLED, LED, and electronic sensors, I provided technical services directly to customers through in-person visits.',
+                // Smart TV OS에 대한 지식과 OLED, LED 및 전자 센서에 대한 지식을 바탕으로 고객에게 직접 방문하여, Technical 한 서비스를 제공 하였습니다. 
+                year: '03/2022 - 11/2022',
+                location: 'NSW Granville, Australia'
             },
-            {
-                id: 3,
-                title: 'Encoder Bytes',
-                role: 'PHP Developer',
-                url: 'https://www.encoderbytes.com/',
-                desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
-                year: '09/2020 - 02/2021',
-                location: 'Peshawar, Pakistan'
-            },
-
         ]
     }
 ]
