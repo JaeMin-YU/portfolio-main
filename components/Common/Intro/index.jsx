@@ -9,7 +9,7 @@ import Tools from './Tools';
 import Skills from './Skills';
 import Image from 'next/image';
 import { NAME, DESIGNATION, SOCIAL_LINKS } from '../../../constants/constants';
-import jaeminprofile from '../../../public/images/jaeminprofile.jpg';
+import jaeminprofile from '../../../public/images/jaeminprofile.png';
 
 const Intro = () => {
   return (
