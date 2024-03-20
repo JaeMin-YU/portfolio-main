@@ -5,7 +5,7 @@
 
 ### Demo Screeshots
 
-![Osama Portfolio Desktop Demo](./public/readme-images/portfolio.png "Desktop Demo")
+![Jaemin Portfolio Desktop Demo](./public/readme-images/portfolio.jpeg "Desktop Demo")
 
 ### 추가 메모
 페이지 템플릿 소스 git hub = https://github.com/osamajavaid/portfolio.git </br>
